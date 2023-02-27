@@ -1,0 +1,43 @@
+/* Esto pertenece a toda la pagina  */
+
+/* Encabezado */
+.topheader {
+    list-style-type: none;
+    box-shadow: 0 4px 5px ;
+    position: fixed;
+    background-color: purple;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    border: 2px solid black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+    scroll-margin-top: 20px;
+}
+
+/* presentacion del perfil  */
+.city {
+    
+     text-align: left;
+     background-color: purple;
+     color: white;
+     border: 2px solid black;
+     margin: 120px;
+     padding: 10px;
+     
+}
+/* titulos de cada seccion (perfil, experiencia y habilidades) */
+.titulo {
+    padding: 100px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+
+
